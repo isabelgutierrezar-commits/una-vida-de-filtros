@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Una vida de filtros</title>
+  <!-- Google Fonts: Fraunces, Plus Jakarta Sans y Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600;1,9..144,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Archivo CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="logo">
+        <span>Una vida</span>
+        <span class="logo-oval">de filtros</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyecto">El proyecto</a>
+        <a href="#documental">Documental</a>
+        <a href="#protagonistas">Protagonistas</a>
+        <a href="#explora">Explora</a>
+        <a href="#participa">Participa</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://www.instagram.com/entre.filtros?cplk=dW85c2Uza2RzeXh4" target="_blank" rel="noopener noreferrer" class="btn-instagram">Instagram</a>
+        <button class="btn-search" aria-label="Buscar">🔍</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. SECCIÓN HERO (INICIO) -->
+  <section id="inicio" class="section hero-section paper-dark">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <svg class="burst-lines" width="65" height="45" viewBox="0 0 65 45" fill="none">
+          <path d="M8 38L2 28M22 30L16 12M38 27L40 6M52 32L62 18" stroke="#EDE9EA" stroke-width="3.5" stroke-linecap="round"/>
+        </svg>
+
+        <h1 class="hero-title">
+          ¿Una vida <br>
+          <span class="oval-badge">detrás de</span> <br>
+          <span class="sticker-word">filtros?</span>
+        </h1>
+
+        <p class="hero-lead">Detrás de lo que mostramos, existe una historia que no siempre se ve.</p>
+        <p class="hero-subtext">Cuatro historias, una misma pregunta: ¿cuánto de lo que queremos ser nace de nosotras y cuánto de lo que vemos en redes?</p>
+        
+        <div class="hero-buttons">
+          <a href="#documental" class="btn-primary">Descubre la historia</a>
+          <a href="#protagonistas" class="btn-outline">Conoce sus historias</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="polaroid-wrapper">
+          <div class="cutout-question q-top">?</div>
+          
+          <div class="polaroid-frame sticker-cutout main-photo">
+            <img src="assets/hero-principal.jpg" alt="Retrato principal" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80'">
+          </div>
+          
+          <div class="sticker-note note-1">
+            <span class="handwritten">¿Somos lo que mostramos?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="plaid-strip"></div>
+  </section>
+
+  <!-- 2. SECCIÓN: ¿DE QUÉ TRATA? -->
+  <section id="proyecto" class="section about-section paper-light">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2 class="section-title">
+          ¿De qué trata <br>
+          <span class="oval-badge">Una vida</span> <br>
+          <span class="sticker-word-dark">de filtros?</span>
+        </h2>
+        <p>Explora la relación entre lo que mostramos en redes y lo que realmente vivimos a través de las historias de cuatro jóvenes, sus pensamientos, sus dudas y lo que hay detrás de cada publicación.</p>
+        <a href="#documental" class="btn-dark">Conoce más</a>
+
+        <div class="theme-pills">
+          <div class="pill"><span class="icon">📱</span><span>Redes sociales</span></div>
+          <div class="pill"><span class="icon">🤍</span><span>Identidad</span></div>
+          <div class="pill"><span class="icon">✨</span><span>Belleza</span></div>
+          <div class="pill"><span class="icon">⭐</span><span>Éxito</span></div>
+          <div class="pill"><span class="icon">🌸</span><span>Aceptación</span></div>
+        </div>
+      </div>
+
+      <div class="about-collage">
+        <div class="polaroid-frame sticker-cutout photo-top">
+          <img src="assets/acerca-1.jpg" alt="Foto espontánea" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80'">
+          <span class="polaroid-caption">Más que fotos bonitas</span>
+        </div>
+        <div class="polaroid-frame sticker-cutout photo-bottom">
+          <img src="assets/acerca-2.jpg" alt="Detrás de escena" onerror="this.src='https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80'">
+          <span class="sticker-note note-2 handwritten">Una historia real, contada desde la honestidad</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SECCIÓN: DOCUMENTAL -->
+  <section id="documental" class="section documentary-section plaid-bg">
+    <div class="container doc-grid">
+      <div class="doc-info">
+        <h2 class="section-title">
+          La historia <br>
+          <span class="oval-badge">detrás del</span> <br>
+          <span class="sticker-word-dark">filtro</span>
+        </h2>
+        <p>En redes podemos construir una versión de nuestra vida en la que todo parece estar bajo control.</p>
+        <p>Pero ¿qué sucede antes de tomar esa foto? ¿Qué sentimos cuando no nos gusta cómo nos vemos?</p>
+        <p>Acompaña a Valentina y conoce también las historias de Mariana, Sara y Laura.</p>
+        <a href="#video-player" class="btn-primary">Ver el documental</a>
+      </div>
+
+      <div class="doc-media" id="video-player">
+        <div class="video-container sticker-cutout">
+          <video controls poster="assets/video-thumbnail.jpg">
+            <source src="assets/video-documental.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video HTML5.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SECCIÓN: PROTAGONISTAS -->
+  <section id="protagonistas" class="section characters-section paper-light">
+    <div class="container text-center">
+      <h2 class="section-title">
+        Conoce a las <span class="oval-badge">protagonistas</span>
+      </h2>
+      <p class="subtitle">Cuatro historias diferentes, una misma pregunta: ¿cuánto de lo que queremos ser nace de nosotras y cuánto de lo que vemos en redes?</p>
+
+      <div class="characters-grid">
+        <!-- Valentina -->
+        <article class="character-card sticker-cutout">
+          <div class="char-photo-wrap">
+            <img src="assets/valentina.jpg" alt="Valentina" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80'">
+            <span class="cutout-tag">★</span>
+          </div>
+          <h3 class="char-name">Valentina</h3>
+          <span class="char-age">22 años</span>
+          <p class="char-quote">“Quiero que los demás siempre vean esa versión perfecta de mí.”</p>
+          <a href="#" class="btn-card">Conocer historia</a>
+        </article>
+
+        <!-- Mariana -->
+        <article class="character-card sticker-cutout">
+          <div class="char-photo-wrap">
+            <img src="assets/mariana.jpg" alt="Mariana" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&q=80'">
+            <span class="cutout-tag">?</span>
+          </div>
+          <h3 class="char-name">Mariana</h3>
+          <span class="char-age">21 años</span>
+          <p class="char-quote">“Quiero verme como siento que debería verme cuando me comparo.”</p>
+          <a href="#" class="btn-card">Conocer historia</a>
+        </article>
+
+        <!-- Sara -->
+        <article class="character-card sticker-cutout">
+          <div class="char-photo-wrap">
+            <img src="assets/sara.jpg" alt="Sara" onerror="this.src='https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80'">
+            <span class="cutout-tag">♥</span>
+          </div>
+          <h3 class="char-name">Sara</h3>
+          <span class="char-age">23 años</span>
+          <p class="char-quote">“Siento que a mi edad ya debería haber logrado muchas más cosas.”</p>
+          <a href="#" class="btn-card">Conocer historia</a>
+        </article>
+
+        <!-- Laura -->
+        <article class="character-card sticker-cutout">
+          <div class="char-photo-wrap">
+            <img src="assets/laura.jpg" alt="Laura" onerror="this.src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80'">
+            <span class="cutout-tag">?</span>
+          </div>
+          <h3 class="char-name">Laura</h3>
+          <span class="char-age">21 años</span>
+          <p class="char-quote">“Quiero ser yo, pero también quiero encajar.”</p>
+          <a href="#" class="btn-card">Conocer historia</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. SECCIÓN: TRES FORMAS DE MIRAR (EXPLORA) - CON VIDEO INTEGRADO -->
+  <section id="explora" class="section explore-section paper-dark">
+    <div class="container text-center">
+      <h2 class="section-title text-white">
+        Tres formas de mirar <br>
+        <span class="oval-badge">una misma</span>
+        <span class="sticker-word">historia</span>
+      </h2>
+      <p class="subtitle text-light">Desliza y descubre lo que mostramos, lo que ocultamos y lo que somos.</p>
+
+      <div class="interactive-tabs">
+        <button class="tab-btn active">Lo que mostramos</button>
+        <button class="tab-btn">Lo que oculto</button>
+        <button class="tab-btn">Lo que soy</button>
+      </div>
+
+      <div class="carousel-showcase">
+        <button class="carousel-arrow left" aria-label="Anterior">❮</button>
+        
+        <div class="carousel-card sticker-cutout">
+          <div class="carousel-photo">
+            <!-- VIDEO version-compartimos.mp4 REEMPLAZANDO LA IMAGEN -->
+            <video src="assets/version-compartimos.mp4" controls autoplay muted loop playsinline>
+              Tu navegador no soporta la reproducción de video.
+            </video>
+          </div>
+          <div class="carousel-text">
+            <h3 class="card-heading">La versión que compartimos</h3>
+            <p>Elegimos qué fotografías publicar, qué momentos contar y qué imagen queremos proyectar. Una publicación puede mostrar algo que realmente vivimos, pero nunca cuenta toda nuestra historia.</p>
+          </div>
+        </div>
+
+        <button class="carousel-arrow right" aria-label="Siguiente">❯</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. SECCIÓN: PARTICIPA -->
+  <section id="participa" class="section participate-section paper-light">
+    <div class="container participate-grid">
+      <div class="participate-left">
+        <div class="scrapbook-card note-card sticker-cutout">
+          <span class="oval-badge">Detrás de</span>
+          <span class="sticker-word-dark" style="display:block; margin-top:10px;">mi filtro</span>
+          <div class="cutout-question q-bottom">?</div>
+        </div>
+      </div>
+
+      <div class="participate-form-box sticker-cutout">
+        <h2 class="form-title">
+          ¿Qué hay <span class="oval-badge">detrás de tu</span> <br>
+          <span class="sticker-word-dark">pantalla?</span>
+        </h2>
+        <p class="form-desc">Este es un espacio para compartir tus pensamientos de forma anónima y ser parte de esta conversación.</p>
+
+        <form class="reflection-form" onsubmit="event.preventDefault(); alert('¡Gracias por compartir tu reflexión!');">
+          <label for="reflexion" class="form-label">Completa la frase:</label>
+          <textarea id="reflexion" placeholder="Hay una parte de mí que casi nunca muestro porque..." rows="4" required></textarea>
+          <button type="submit" class="btn-primary btn-block">Compartir mi reflexión</button>
+        </form>
+
+        <p class="handwritten form-footer-note">Tu historia también importa. ★</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. SECCIÓN: MÁS ALLÁ DE LAS REDES -->
+  <section class="section ecosystem-section plaid-bg">
+    <div class="container text-center">
+      <h2 class="section-title">Más allá de <span class="oval-badge">las redes</span></h2>
+      <p class="subtitle">Una historia que se vive en diferentes espacios y te invita a mirar más allá de lo que ves en pantalla.</p>
+
+      <div class="ecosystem-flow">
+        <div class="flow-step">
+          <div class="step-card sticker-cutout">
+            <img src="assets/eco-documental.jpg" alt="El documental" onerror="this.src='https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=400&q=80'">
+          </div>
+          <h4>1. El documental</h4>
+          <p>Conoce sus historias y lo que hay detrás de cada publicación.</p>
+        </div>
+
+        <div class="flow-arrow">➔</div>
+
+        <div class="flow-step">
+          <a href="https://www.instagram.com/entre.filtros?cplk=dW85c2Uza2RzeXh4" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+            <div class="step-card sticker-cutout">
+              <img src="assets/eco-instagram.jpg" alt="Instagram" onerror="this.src='https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=400&q=80'">
+            </div>
+            <h4>2. Instagram</h4>
+            <p>Contenido real, preguntas, reflexiones y conversaciones que continúan la historia.</p>
+          </a>
+        </div>
+
+        <div class="flow-arrow">➔</div>
+
+        <div class="flow-step">
+          <div class="step-card sticker-cutout">
+            <img src="assets/eco-sitio.jpg" alt="Este sitio" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=80'">
+          </div>
+          <h4>3. Este sitio</h4>
+          <p>Descubre más sobre las protagonistas, explora los temas y deja tu reflexión.</p>
+        </div>
+
+        <div class="flow-arrow">➔</div>
+
+        <div class="flow-step">
+          <div class="step-card sticker-cutout">
+            <img src="assets/eco-espacio.jpg" alt="Un espacio para ti" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80'">
+          </div>
+          <h4>4. Un espacio para ti</h4>
+          <p>La conversación también llega fuera de la pantalla con una experiencia para escribir lo que mostramos y lo que ocultamos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. SECCIÓN: INSTAGRAM & REFLEXIÓN FINAL -->
+  <section class="section instagram-section paper-light">
+    <div class="container insta-grid">
+      <div class="insta-info">
+        <h2 class="section-title">
+          Sigamos la conversación <br>
+          <span class="oval-badge">en Instagram</span>
+        </h2>
+        <a href="https://www.instagram.com/entre.filtros?cplk=dW85c2Uza2RzeXh4" class="insta-handle" target="_blank" rel="noopener noreferrer">@entre.filtros</a>
+        <p>Un espacio para hablar de lo que mostramos, lo que sentimos y todo aquello que queda detrás de una publicación.</p>
+        <a href="https://www.instagram.com/entre.filtros?cplk=dW85c2Uza2RzeXh4" target="_blank" rel="noopener noreferrer" class="btn-primary">Ir a Instagram</a>
+      </div>
+
+      <!-- DISEÑO DE PERFIL DE INSTAGRAM CLICKEABLE -->
+      <div class="insta-preview">
+        <a href="https://www.instagram.com/entre.filtros?cplk=dW85c2Uza2RzeXh4" target="_blank" rel="noopener noreferrer" class="ig-mockup-link" title="Ver perfil @entre.filtros en Instagram">
+          <div class="ig-mockup-card sticker-cutout">
+            <div class="ig-header">
+              <div class="ig-avatar">
+                <span>Una vida<br><em>de filtros</em></span>
+              </div>
+              <div class="ig-user-details">
+                <div class="ig-top-row">
+                  <span class="ig-username">entre.filtros</span>
+                  <span class="ig-follow-badge">Seguir</span>
+                </div>
+                <div class="ig-stats">
+                  <span><strong>12</strong> pub.</span>
+                  <span><strong>485</strong> seg.</span>
+                </div>
+                <p class="ig-bio">Detrás de lo que mostramos existe una historia real ✨</p>
+              </div>
+            </div>
+
+            <div class="ig-feed-grid">
+              <img src="assets/valentina.jpg" alt="Post 1" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80'">
+              <img src="assets/mariana.jpg" alt="Post 2" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80'">
+              <img src="assets/sara.jpg" alt="Post 3" onerror="this.src='https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80'">
+              <img src="assets/laura.jpg" alt="Post 4" onerror="this.src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80'">
+              <img src="assets/acerca-1.jpg" alt="Post 5" onerror="this.src='https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=300&q=80'">
+              <img src="assets/acerca-2.jpg" alt="Post 6" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80'">
+              <img src="assets/hero-principal.jpg" alt="Post 7" onerror="this.src='https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=300&q=80'">
+              <!-- Video version-compartimos.mp4 también en la miniatura del feed -->
+              <video src="assets/version-compartimos.mp4" muted loop autoplay playsinline></video>
+              <img src="assets/eco-espacio.jpg" alt="Post 9" onerror="this.src='https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=300&q=80'">
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Banner oscuro final -->
+    <div class="closing-banner paper-dark">
+      <div class="container text-center">
+        <p class="banner-pre">¿Sigues comparando tu vida real con una</p>
+        <h3 class="banner-title">
+          <span class="sticker-word">pantalla?</span>
+        </h3>
+        <svg class="burst-under" width="140" height="36" viewBox="0 0 140 36" fill="none">
+          <path d="M10 8L35 24M52 10L42 30M72 10L72 34M92 10L102 30M110 8L132 22" stroke="#EDE9EA" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+
+        <p class="banner-sub">No tenemos que mostrarlo todo para ser reales. Tampoco tenemos que convertirnos en una versión perfecta para merecer aceptación.</p>
+        <a href="#inicio" class="btn-primary">Volver al inicio</a>
+        <span class="handwritten closing-note">Si nadie estuviera mirando, ¿qué cambiarías de ti?</span>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
